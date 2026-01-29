@@ -59,7 +59,11 @@
                 "workbench.editor.closeOnFileDelete": true,
                 "workbench.editor.enablePreview": false,
                 "workbench.tips.enabled": false,
-                "workbench.welcomePage.walkthroughs.openOnInstall": false
+                "workbench.welcomePage.walkthroughs.openOnInstall": false,
+                "workbench.editor.openSideBySideDirection": "right",
+                "workbench.editor.openPositioning": "right",
+                "workbench.startupEditor": "none",
+                "workbench.editor.showTabs": true
             }
         }
     },
