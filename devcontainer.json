@@ -73,7 +73,7 @@
                             "size": 0.5
                         },
                         {
-                            "files": ["queries.sql"],
+                            "files": ["odev.sql"],
                             "size": 0.5
                         }
                     ]
