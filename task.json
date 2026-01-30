@@ -2,11 +2,16 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Open Workspace Layout",
-      "type": "shell",
-      "command": "echo",
-      "args": ["Opening files..."],
-      "problemMatcher": []
+      "label": "Layout Restore",
+      "command": "${command:workspaceLayout.restore}",
+      "problemMatcher": [],
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "silent",
+        "panel": "hidden"
+      }
     }
   ]
 }
