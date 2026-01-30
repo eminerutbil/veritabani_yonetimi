@@ -1,7 +1,7 @@
 {
     "build": {
         "args": {
-            "TAG": latest
+            "TAG": "latest"
         },
         "context": ".",
         "dockerfile": "Dockerfile"
@@ -14,7 +14,8 @@
                 "ms-vsliveshare.vsliveshare",
                 "mtxr.sqltools",
                 "mtxr.sqltools-driver-pg",
-                "mtxr.sqltools-driver-sqlite"
+                "mtxr.sqltools-driver-sqlite",
+                "lostintangent.workspace-layout"
             ],
             "settings": {
                 "accessibility.signals.terminalBell": { "sound": "on" },
@@ -59,7 +60,24 @@
                 "workbench.editor.closeOnFileDelete": true,
                 "workbench.editor.enablePreview": false,
                 "workbench.tips.enabled": false,
-                "workbench.welcomePage.walkthroughs.openOnInstall": false
+                "workbench.welcomePage.walkthroughs.openOnInstall": false,
+                "workbench.editor.openSideBySideDirection": "right",
+                "workbench.editor.openPositioning": "right",
+                "workbench.startupEditor": "none",
+                "workbench.editor.showTabs": true,
+                "workspaceLayout.layout": {
+                    "orientation": "horizontal",
+                    "groups": [
+                        {
+                            "files": ["README.md"],
+                            "size": 0.5
+                        },
+                        {
+                            "files": ["queries.sql"],
+                            "size": 0.5
+                        }
+                    ]
+                }
             }
         }
     },
