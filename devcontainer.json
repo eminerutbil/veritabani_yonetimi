@@ -67,9 +67,8 @@
                 "workbench.editor.showTabs": true,
                 "workspaceLayout.layout": {
                     "workspace": {
-                        "view": "explorer", 
+                        "view": "README.md", 
                         "files": [
-                            "README.md",
                             "sql_odev/odev.sql"
                         ]
                     }
