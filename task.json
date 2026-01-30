@@ -2,9 +2,8 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Layout Restore",
+      "label": "Restore Layout",
       "command": "${command:workspaceLayout.restore}",
-      "problemMatcher": [],
       "runOptions": {
         "runOn": "folderOpen"
       },
