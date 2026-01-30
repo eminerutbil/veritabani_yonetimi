@@ -66,17 +66,13 @@
                 "workbench.startupEditor": "none",
                 "workbench.editor.showTabs": true,
                 "workspaceLayout.layout": {
-                    "orientation": "horizontal",
-                    "groups": [
-                        {
-                            "files": ["README.md"],
-                            "size": 0.5
-                        },
-                        {
-                            "files": ["sql_odev/odev.sql"],
-                            "size": 0.5
-                        }
-                    ]
+                    "workspace": {
+                        "view": "explorer", 
+                        "files": [
+                            "README.md",
+                            "sql_odev/odev.sql"
+                        ]
+                    }
                 }
             }
         }
